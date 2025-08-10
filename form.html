@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- including the google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="form.css">
+    <title>form</title>
+</head>
+
+<body dir="rtl">
+    <div class="main_container">
+
+
+        <header class="form_header">
+            <h2 class="header_txt">فرم ثبت نام</h2>
+        </header>
+
+
+        <main class="inputs">
+            <form action="#" class="main_form">
+                <input type="text" minlength="10" maxlength="30" class="user-name" name="" id="name">
+                <label class="name_lable" for="name">نام کامل</label>
+                <input type="email" class="user-email" maxlength="30" name="" id="email">
+                <label class="email_lable" for="email">ایمیل</label>
+                <section class="date">
+                    <input placeholder="روز" class="date_day" type="number" name="" id="">
+                    <input placeholder="ماه"  class="date_month" type="number" name="" id="">
+                    <input placeholder="سال "  class="date_year" type="number" name="" id="">
+                </section>
+                <section class="date_show">
+                   
+                </section>
+                <input type="password" minlength="5" maxlength="20" class="user-pass" name="" id="pass">
+                <label class="pass_lable" for="pass">پسورد</label>
+
+
+                <button type="submit" class="submit_btn">
+                    ثبت
+                </button>
+            </form>
+        </main>
+
+    </div>
+
+
+    <footer></footer>
+</body>
+
+<script src="form.js"></script>
+
+</html>
